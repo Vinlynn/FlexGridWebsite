@@ -18,7 +18,7 @@ body, html {
     overflow: hidden;
 }
 
-.overlay {
+.overlay1 {
     position: absolute;
     top: 0;
     right: 0;
@@ -185,6 +185,16 @@ main {
 
 .grid-container >div:nth-child(3) {
     grid-column: span 3;
+}
+
+.using-grid {
+    font-size: 32px;
+}
+
+footer p {
+    text-align: center;
+    background-color: rgb(240, 237, 233);
+    padding: 10px;
 }
 
 
